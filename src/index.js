@@ -23,13 +23,6 @@ hello.init({
   { redirect_uri: window.location.href }
 );
 
-// after signing in, go to home page
-hello.on('auth.login', auth => {
-  if (auth.network === 'msft') {
-    // history.push('/home');
-  }
-});
-
 ReactDOM.render(
   <BrowserRouter>
     <Switch>

@@ -28,7 +28,7 @@ If you click "Write to Excel" button, it writes the contacts to an Excel file.
 ## How to run
 
 This project was generated with [create-react-app](https://github.com/facebookincubator/create-react-app).
-Use `npm start` or `ng serve` to run. Navigate to [http://localhost:3000/](http://localhost:3000/).
+Use `npm start` or `yarn start` to run. Navigate to [http://localhost:3000/](http://localhost:3000/).
 
 ## How to create a project by yourself
 To create your app, you need get an App ID at [https://apps.dev.microsoft.com/](https://apps.dev.microsoft.com/).

@@ -31,12 +31,14 @@ This project was generated with [create-react-app](https://github.com/facebookin
 Use `npm start` or `yarn start` to run. Navigate to [http://localhost:3000/](http://localhost:3000/).
 
 ## How to create a project by yourself
+
 To create your app, you need get an App ID at [https://apps.dev.microsoft.com/](https://apps.dev.microsoft.com/).
 
-And configure the app with the permissions you need.
+Configure the app with the permissions you need. Check **Allow Implicit Flow**. Update **Redirect URLs**.
 
-This demo needs `Contacts.Read`, `Files.ReadWrite`. These info are set up in the [config file](https://github.com/Hongbo-Miao/microsoft-graph-react/blob/master/src/configs.js).
+This demo needs `Contacts.Read`, `Files.ReadWrite` permissions. The Redirect URLs are `http://localhost:3000`, `http://localhost:3000/home`.
 
+These info are set up in the [config file](https://github.com/Hongbo-Miao/microsoft-graph-react/blob/master/src/configs.js).
 
 ## Learn More
 
